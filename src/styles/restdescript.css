@@ -1,0 +1,46 @@
+.descript-bod{
+    display: flex;
+    flex-direction: column;
+
+}
+img{
+    width: 100%;
+    height: 60vh;
+
+}
+.descript-w{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 60px;
+    margin-top: -50px;
+    gap: 30px;
+}
+.dwf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dwff{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.ol{
+    display: flex;
+    color: orange;
+    align-items: center;
+    gap: 4px;
+
+}
+.dwfs{
+    display: flex;
+    
+    align-items: center;
+    gap: 4px;
+}
+.dwfs h5{
+    font-size: 0.9rem;
+}

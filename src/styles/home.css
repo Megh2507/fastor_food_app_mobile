@@ -1,0 +1,125 @@
+@import "react-slideshow-image/dist/styles.css";
+.home-first{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* margin-top: 80px; */
+}
+.home-first-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.home-first-left h2{
+    /* font-size: 1.2rem; */
+    font-weight: 500;
+    color: grey;
+}
+.home-first-left h4{
+    font-size: 0.8rem;
+    font-weight: 500;
+    
+}
+.home-first-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.h-f-r-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.h-f-r-sec h4{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgba(110, 100, 100, 0.749);
+}
+.icon1{
+   border-radius: 10px;
+    border: .5px solid orange;
+    box-shadow: rgba(201, 120, 14, 0.826) 6px 2px 16px 0px, rgba(238, 147, 1, 0.945) -6px -2px 16px 0px;
+}
+.icon2{
+    border-radius: 10px;
+    border: .5px solid blue;
+    box-shadow: rgba(13, 93, 164, 0.742) 6px 2px 16px 0px, rgba(7, 64, 197, 0.865) -6px -2px 16px 0px;
+}
+.home-second{
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.home-third{
+    /* margin-top: 30px; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.home-second-first{
+    display: flex;
+    justify-content: space-between;
+}
+.home-second-first h2{
+    font-weight: 500;
+}
+.hsfr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: rgba(110, 100, 100, 0.749);
+
+}
+.slider-sec{
+    margin-top: 30px;
+}
+.sld2{
+ margin-top: 30px; 
+ 
+}
+.list-sec{
+    padding: 30px;
+
+}
+.list-sec-f{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+.food-offer{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.list-sec-f img{
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+}
+.list-sec-f-w{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+    .last-line{
+        display: flex;
+        justify-content: space-between;
+  
+    }
+    .ll{
+        display: flex;
+        flex-direction: column;
+    
+    }
+

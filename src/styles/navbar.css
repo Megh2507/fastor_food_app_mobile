@@ -1,0 +1,24 @@
+.nav-bod{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding: 30px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+.nav-first{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: grey;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
