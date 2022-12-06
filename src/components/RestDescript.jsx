@@ -4,13 +4,20 @@ import { useNavigate } from "react-router-dom";
 import "../styles/restdescript.css";
 import { CiPercent } from "react-icons/ci";
 import { AiOutlineStar } from "react-icons/ai";
+import logoimg from "./fastor_logo.png"
+import Draggable from 'react-draggable';
 function RestDescript() {
   return (
     <div className="descript-bod">
-      <img
+      <img className="mainimg"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ40ll1pJeyKS6Hl4WTKf2673viCQPiZw3wcPU4SSuIDEYx6GaeCw281hcZmZOau7WVXo4&usqp=CAU"
         alt=""
       />
+      <Draggable>
+    <div className="db">
+        <img src={logoimg} alt="" />
+    </div>
+</Draggable>
       <div className="descript-w">
         <div className="dwf">
           <div className="dwff">

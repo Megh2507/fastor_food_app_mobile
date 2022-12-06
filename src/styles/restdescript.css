@@ -3,7 +3,8 @@
     flex-direction: column;
 
 }
-img{
+.mainimg{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ40ll1pJeyKS6Hl4WTKf2673viCQPiZw3wcPU4SSuIDEYx6GaeCw281hcZmZOau7WVXo4&usqp=CAU");
     width: 100%;
     height: 60vh;
 
@@ -44,3 +45,15 @@ img{
 .dwfs h5{
     font-size: 0.9rem;
 }
+.db img{
+    height: 70px;
+    width: 70px;
+
+}
+.db{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 40%;
+    cursor: move;
+}
+
